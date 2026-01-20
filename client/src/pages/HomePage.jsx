@@ -257,9 +257,9 @@ function HomePage() {
                     </div>
                     <p className="text-slate-600 text-sm">© 2026 FixIt SL. Built for a better tomorrow.</p>
                     <div className="flex gap-6">
-                        <a href="#" className="text-slate-500 hover:text-white transition-colors">Privacy</a>
-                        <a href="#" className="text-slate-500 hover:text-white transition-colors">Terms</a>
-                        <a href="#" className="text-slate-500 hover:text-white transition-colors">Contact</a>
+                        <Link to="/privacy" className="text-slate-500 hover:text-white transition-colors">Privacy</Link>
+                        <Link to="/terms" className="text-slate-500 hover:text-white transition-colors">Terms</Link>
+                        <Link to="/contact" className="text-slate-500 hover:text-white transition-colors">Contact</Link>
                     </div>
                 </div>
             </footer>

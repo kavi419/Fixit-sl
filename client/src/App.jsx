@@ -7,6 +7,9 @@ import ReportPage from './pages/ReportPage';
 import MapView from './pages/MapView';
 import Login from './pages/Login';
 import AdminDashboard from './pages/AdminDashboard';
+import ContactPage from './pages/ContactPage';
+import PrivacyPage from './pages/PrivacyPage';
+import TermsPage from './pages/TermsPage';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route path="/map" element={<MapView />} />
         <Route path="/login" element={<Login />} />
         <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="/terms" element={<TermsPage />} />
       </Routes>
     </>
   );

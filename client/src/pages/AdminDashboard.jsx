@@ -64,7 +64,7 @@ const AdminDashboard = () => {
 
     const handleLogout = () => {
         localStorage.removeItem('token');
-        navigate('/login');
+        navigate('/');
         toast.success('Logged out');
     };
 
@@ -89,16 +89,16 @@ const AdminDashboard = () => {
     const resolvedIssues = issues.filter(issue => issue.status === 'Resolved');
 
     return (
-        <div className="min-h-screen bg-slate-950 font-sans text-slate-200">
+        <div className="min-h-screen bg-slate-950 font-sans text-slate-200 pt-16">
             {/* Header */}
-            <header className="bg-slate-900 border-b border-slate-800 sticky top-0 z-10 backdrop-blur-md bg-opacity-80">
+            <header className="bg-slate-900 border-b border-slate-800 sticky top-16 z-10 backdrop-blur-md bg-opacity-80">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
                     <h1 className="text-xl font-bold text-amber-500 flex items-center gap-2">
                         <span>🛡️</span> Admin Dashboard
                     </h1>
                     <button
                         onClick={handleLogout}
-                        className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
+                        className="px-4 py-2 text-sm font-medium text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors shadow-sm"
                     >
                         Logout
                     </button>
