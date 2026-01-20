@@ -210,22 +210,30 @@ function HomePage() {
                             {
                                 title: "Road Safety 101: Why Reporting Matters",
                                 desc: "Small potholes can lead to big accidents. Here is why your report saves lives.",
-                                tag: "Safety"
+                                tag: "Safety",
+                                image: "https://images.unsplash.com/photo-1598335624175-e4159319034c?q=80&w=600&auto=format&fit=crop"
                             },
                             {
                                 title: "The Future of Smart Infrastructure in SL",
                                 desc: "How AI and IoT are transforming how we manage our cities.",
-                                tag: "Technology"
+                                tag: "Technology",
+                                image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=600&auto=format&fit=crop"
                             },
                             {
                                 title: "Community Power: How You Changed Your Village",
                                 desc: "A case study on how one neighborhood fixed their entire road network.",
-                                tag: "Community"
+                                tag: "Community",
+                                image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600&auto=format&fit=crop"
                             }
                         ].map((article, index) => (
                             <div key={index} className="group cursor-pointer">
                                 <div className="h-48 w-full bg-slate-800 rounded-2xl mb-4 overflow-hidden relative">
-                                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
+                                    <img
+                                        src={article.image}
+                                        alt={article.title}
+                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
                                     <div className="absolute bottom-4 left-4">
                                         <span className="text-xs font-bold text-white bg-blue-600 px-2 py-1 rounded-md">{article.tag}</span>
                                     </div>
