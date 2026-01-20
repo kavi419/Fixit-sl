@@ -56,12 +56,12 @@ This project was built using the **MERN Stack** and modern DevOps tools.
 
 | Landing Page 🏠 | Live Map 🗺️ |
 |:---:|:---:|
-| ![Home](https://via.placeholder.com/400x200?text=Landing+Page+Screenshot) | ![Map](https://via.placeholder.com/400x200?text=Live+Map+Screenshot) |
+| ![Home](https://github.com/user-attachments/assets/3f0d79cc-57cf-479b-95bf-f0e6d793cdd6 /) | ![Map](img width="1886" height="1198" alt="Image" src="https://github.com/user-attachments/assets/c5450020-c793-4bbe-b434-2a95ebced506" /) |
 | *Modern Landing Page* | *Real-time Issue Tracking* |
 
 | Report Form 📝 | Admin Dashboard ⚙️ |
 |:---:|:---:|
-| ![Form](https://via.placeholder.com/400x200?text=Report+Form+Screenshot) | ![Admin](https://via.placeholder.com/400x200?text=Admin+Dashboard+Screenshot) |
+| ![Form](img width="1874" height="1754" alt="Image" src="https://github.com/user-attachments/assets/231f6014-51b6-462c-a7cd-c4919afab27a" /) | ![Admin](img width="1874" height="4876" alt="Image" src="https://github.com/user-attachments/assets/e59066b8-3ed6-4742-803e-4f197ce72e36" /) |
 | *Easy Submission* | *Management Interface* |
 
 > *Note: Screenshots are placeholders. Please visit the live site to see the app in action.*
