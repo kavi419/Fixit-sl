@@ -71,7 +71,7 @@ function Home() {
 
     try {
       setLoading(true);
-      await axios.post('http://localhost:5000/api/issues/report', data, {
+      await axios.post('https://fixit-sl-backend.onrender.com/api/issues/report', data, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       toast.success('Issue reported successfully!');

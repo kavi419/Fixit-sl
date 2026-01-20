@@ -19,7 +19,7 @@ const Login = () => {
         e.preventDefault();
         setLoading(true);
         try {
-            const res = await axios.post('http://localhost:5000/api/auth/login', formData);
+            const res = await axios.post('https://fixit-sl-backend.onrender.com/api/auth/login', formData);
             localStorage.setItem('token', res.data.token);
             toast.success('Logged in successfully');
             navigate('/admin');

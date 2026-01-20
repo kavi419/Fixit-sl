@@ -51,7 +51,7 @@ function MapView() {
   useEffect(() => {
     const fetchIssues = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/issues');
+        const res = await axios.get('https://fixit-sl-backend.onrender.com/api/issues');
         console.log("Fetched issues:", res.data);
         setIssues(res.data);
       } catch (err) {
@@ -120,8 +120,8 @@ function MapView() {
                   <div className="flex items-center justify-between gap-2 mb-2 border-b pb-1">
                     <span className="text-xs font-bold text-slate-500 uppercase tracking-wide">{issue.category}</span>
                     <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${isResolved
-                        ? 'bg-emerald-100 text-emerald-700 border border-emerald-200'
-                        : 'bg-amber-100 text-amber-700 border border-amber-200'
+                      ? 'bg-emerald-100 text-emerald-700 border border-emerald-200'
+                      : 'bg-amber-100 text-amber-700 border border-amber-200'
                       }`}>
                       {isResolved ? '✅ Resolved' : '⏳ Pending'}
                     </span>

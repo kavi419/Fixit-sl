@@ -17,7 +17,7 @@ const AdminDashboard = () => {
             }
 
             try {
-                const res = await axios.get('http://localhost:5000/api/issues', {
+                const res = await axios.get('https://fixit-sl-backend.onrender.com/api/issues', {
                     headers: {
                         'Authorization': `Bearer ${token}`
                     }
@@ -42,7 +42,7 @@ const AdminDashboard = () => {
         try {
             const token = localStorage.getItem('token');
             await axios.put(
-                `http://localhost:5000/api/issues/${id}/status`,
+                `https://fixit-sl-backend.onrender.com/api/issues/${id}/status`,
                 { status: newStatus },
                 {
                     headers: {
