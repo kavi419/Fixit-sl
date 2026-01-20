@@ -211,7 +211,7 @@ function HomePage() {
                                 title: "Road Safety 101: Why Reporting Matters",
                                 desc: "Small potholes can lead to big accidents. Here is why your report saves lives.",
                                 tag: "Safety",
-                                image: "https://images.unsplash.com/photo-1598335624175-e4159319034c?q=80&w=600&auto=format&fit=crop"
+                                image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=600&auto=format&fit=crop"
                             },
                             {
                                 title: "The Future of Smart Infrastructure in SL",
