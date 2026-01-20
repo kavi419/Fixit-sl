@@ -112,6 +112,6 @@ Contributions are welcome! Together, we can make our roads safer.
 **Kavindu** - Full Stack Developer
 
 [GitHub Profile](https://github.com/kavi419)  
-[Email](mailto:kavindu@example.com)
+[Email](mailto:kavindu2002nethmina@gmail.com)
 
 <p align="center">Built with ❤️ in Sri Lanka 🇱🇰</p>
