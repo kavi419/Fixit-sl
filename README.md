@@ -54,17 +54,34 @@ This project was built using the **MERN Stack** and modern DevOps tools.
 
 ## 📸 Project Screenshots
 
-| Landing Page 🏠 | Live Map 🗺️ |
-|:---:|:---:|
-| ![Home](https://github.com/user-attachments/assets/3f0d79cc-57cf-479b-95bf-f0e6d793cdd6 /) | ![Map](img width="1886" height="1198" alt="Image" src="https://github.com/user-attachments/assets/c5450020-c793-4bbe-b434-2a95ebced506" /) |
-| *Modern Landing Page* | *Real-time Issue Tracking* |
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/3f0d79cc-57cf-479b-95bf-f0e6d793cdd6" width="400" />
+      <br />
+      <b>Landing Page 🏠</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c5450020-c793-4bbe-b434-2a95ebced506" width="400" />
+      <br />
+      <b>Live Map 🗺️</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/231f6014-51b6-462c-a7cd-c4919afab27a" width="400" />
+      <br />
+      <b>Report Form 📝</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e59066b8-3ed6-4742-803e-4f197ce72e36" width="400" />
+      <br />
+      <b>Admin Dashboard ⚙️</b>
+    </td>
+  </tr>
+</table>
 
-| Report Form 📝 | Admin Dashboard ⚙️ |
-|:---:|:---:|
-| ![Form](img width="1874" height="1754" alt="Image" src="https://github.com/user-attachments/assets/231f6014-51b6-462c-a7cd-c4919afab27a" /) | ![Admin](img width="1874" height="4876" alt="Image" src="https://github.com/user-attachments/assets/e59066b8-3ed6-4742-803e-4f197ce72e36" /) |
-| *Easy Submission* | *Management Interface* |
-
-> *Note: Screenshots are placeholders. Please visit the live site to see the app in action.*
+> *Note: These are real screenshots from the running application.*
 
 ---
 
